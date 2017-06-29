@@ -53,6 +53,11 @@ addIntroItem(new VerticalIntroItem.Builder()
                 .text("Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
                         "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
                         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.")
+                .setTextColor(R.color.my_color)
+                .setTitleColor(R.color.my_color)
+                .setTextSize(R.dimen.text_Size)
+                .setTitleSize(R.dimen.title_text_Size)
+                .setNextTextColor(R.color.my_color)        
                 .build());
 ```
 
